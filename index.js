@@ -7,7 +7,7 @@ function merge(firstSubarray, secondSubArray){
   let minfirstSubarray = firstSubarray[0];
   let minsecondSubarray = secondSubarray[0];
 
-  while (firstHalf.length != 0 && secondHalf.length != 0) {
+  while (firstSubarray.length != 0 && secondSubarray.length != 0) {
     if (minfirstSubarray < minsecondSubarray) {
       sorted.push(minfirstSubarray);
     } else {
