@@ -13,7 +13,8 @@ function merge(firstSubarray, secondSubArray){
     } else {
       sorted.push(minsecondSubarray);
     }
-
+  }
+  
   return sorted;
 }
 
