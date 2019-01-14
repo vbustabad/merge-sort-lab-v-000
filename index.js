@@ -2,7 +2,7 @@ function findMinAndRemoveSorted(array){
   return array.shift();
 }
 
-function merge(firstSubarray, secondSubArray){
+function merge(firstSubarray, secondSubarray){
   let sorted = [];
   let minfirstSubarray = firstSubarray[0];
   let minsecondSubarray = secondSubarray[0];
