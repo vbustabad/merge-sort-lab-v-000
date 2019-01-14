@@ -14,7 +14,7 @@ function merge(firstSubarray, secondSubArray){
       sorted.push(minsecondSubarray);
     }
   }
-  
+
   return sorted;
 }
 
